@@ -1,0 +1,115 @@
+/* ====================Intro Section Begins================== */
+
+
+
+
+/* =======================Intro Ends======================== */
+
+/*Preloader Begins*/
+.screen-loader{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	left: 0;
+	top: 0;
+	background: #fff url(../images/animated-basketball.gif) no-repeat center center;
+	z-index: 10000;
+}
+
+#preload{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	left: 0;
+	top: 0;
+	background: #000;
+	display: none;
+	z-index: 10000;
+}
+
+#preload-status{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	padding: 0;
+	top:0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: block;
+	background: #fff url(../images/animated-basketball.gif) no-repeat center center;
+	opacity: 1.0;
+	-moz-opacity: 1;
+	-webkit-opacity: 1;
+	filter: alpha(opacity=1);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)"; 
+}
+
+#preload-content{
+	 position: fixed;
+ 	 width: auto;
+	 height: auto;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.6;
+    -moz-opacity: 0.6;
+    -webkit-opacity: 0.6;
+    filter: alpha(opacity=1);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+@media print { 
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        /* Black prints faster: ;
+        http: //www.sanbeiji.com/archives/953 */ box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    a,
+    a:visited { text-decoration: underline }
+    a[href]:after { content: " (" attr(href) ")" }
+    abbr[title]:after { content: " (" attr(title) ")" }
+    /*
+         * Don't show links that are fragment identifiers,
+         * or use the `javascript:` pseudo protocol
+         */
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after { content: "" }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+    /*
+         * Printing Tables:
+         * http://css-discuss.incutio.com/wiki/Printing_Tables
+         */
+    thead { display: table-header-group }
+    tr,
+    img { page-break-inside: avoid }
+    img { max-width: 100% !important }
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+    h2,
+    h3 { page-break-after: avoid }
+}
