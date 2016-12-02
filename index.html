@@ -44,7 +44,7 @@
 	
 </head>
 
-<body>
+<body onLoad="clock();">
 	<!--Screen loader begins-->
 	
 	<div class="screen-loader"></div>
@@ -82,25 +82,25 @@
 				<!-- ====+++ Countdown Timer +++==== -->						
 				<ul class="countdown">
 			        <li>
-			            <span class="days">00</span>
+			            <span class="days" id="days">00</span>
 			            <p class="days-ref">Days</p>
 			        </li>
 			        <li class="seperator"><i class="fa fa-clock-o"></i><br><i class="fa fa-clock-o"></i></li>
 			        <li>
-			            <span class="hours">00</span>
+			            <span class="hours" id="hours">00</span>
 			            <p class="hours-ref">Hours</p>
 			        </li>
 			        <li class="seperator"><i class="fa fa-clock-o"></i><br><i class="fa fa-clock-o"></i></li>
 			        <li>
-			            <span class="minutes">00</span>
+			            <span class="minutes" id="minutes">00</span>
 			            <p class="minutes-ref">Minutes</p>
 			        </li>
 			        <li class="seperator"><i class="fa fa-clock-o"></i><br><i class="fa fa-clock-o"></i></li>
 			        <li>
-			            <span class="seconds">00</span>
+			            <span class="seconds" id="seconds">00</span>
 			            <p class="seconds-ref">Seconds</p>
 			        </li>
-			    </ul>							
+			    </ul>						
 											
 			</div> <!-- /End Intro Section Content -->
 		</div>
@@ -179,7 +179,7 @@
 		
 		<!--Parallax Ends-->
 		
-		<div class="contact-us content-div">
+		<div class="contact-us content-div" style="bac">
 			
 			<div class="container padding-2x">
 				
@@ -307,5 +307,37 @@
     // Enable map zooming with mouse scroll when the user clicks the map
     $('.google-maps').on('click', onMapClickHandler);
     </script>
+    <!--Clock Javascript-->
+
+    <script type="text/javascript">
+    
+    	function clock() {
+    		
+			var d=new Date();
+			var event_date=new Date("01/30/2017");
+			var time=Math.abs(event_date.getTime()-d.getTime());
+			time=time/1000;
+			var days=Math.floor(time/86400);
+			time=time-(days*86400);
+			
+			var hours=Math.floor(time/3600)%24;
+			time-=hours*3600;
+			
+			var minutes=Math.floor(time/60)%60;
+			time-=minutes*60;
+			
+			var seconds=Math.floor(time)%60;
+			
+			document.getElementById("days").innerHTML=""+days
+			document.getElementById("hours").innerHTML=""+hours;
+			document.getElementById("minutes").innerHTML=""+minutes
+			document.getElementById("seconds").innerHTML=""+seconds;
+			
+    		var t = setTimeout(clock, 1000);
+    	}
+    </script>
+
+    <!--Clock Script Ends-->
+    
 </body>
 </html>

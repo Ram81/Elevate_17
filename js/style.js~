@@ -32,6 +32,11 @@
 	[].slice.call( document.querySelectorAll('.content-wrapper a') ).forEach( function(el) { el.onclick = function() { return false; } } );
 })();
 
+
+var newYear = new Date(); 
+newYear = new Date(2017, 12-1, 25);
+$('.defaultCountdown').countdown({until: newYear, format: 'DHMS'}); 
+
 // screen loader
 $(window).load(function() {
     "use strict";

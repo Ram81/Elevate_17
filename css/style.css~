@@ -592,6 +592,46 @@ a:hover { text-decoration: underline; }
 
 /* =================================Contact Us Ends ========================================= */
 
+/*============================Footer Begins=====================*/
+#footer {
+    background-color: #2098f5;
+    padding: 20px 0;
+    overflow: hidden;
+}
+.copyright p {
+    color: #fff;
+    display: block;
+    padding-top: 25px;
+    font-size: 1.1em;
+}
+/*============================Footer Ends =====================*/
+.countdown{
+	color: #fff;
+	margin: 40px auto 10px;
+	width: 70%;
+}
+.countdown_row{
+	display: block;
+	margin-left: 5px;
+	overflow: hidden;
+	width: 100%;
+}
+.countdown_section{
+	background: none repeat scroll 0 0 transparent;
+	border: 2px solid #ddd;
+	border-radius: 100%;
+	display: block;
+	float: left;
+	font-size: 25px;
+	margin: 15px 30px auto;
+	padding: 30px 12px;
+	text-align: center;
+	width: 140px;
+}
+.countdown_amount{
+	font-size: 25px;
+	font-weight: 800;
+}
 
 
 /* ==========================================================================
