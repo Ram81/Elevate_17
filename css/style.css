@@ -558,6 +558,54 @@ a:hover { text-decoration: underline; }
 
 /* ==================================Parallax Ends========================================== */
 
+
+
+/* =================================Contact Us Begins ======================================= */
+
+.contact-member{
+		background-color: #fff;
+		border:1px solid #ddd;
+		border-radius: 5px;
+		padding: 20px 0;
+		margin: 10px 0;
+}
+
+.contact-member h2{
+    color: #585858;
+    font-family: latolight;
+    font-size: 1.2em;
+}
+
+.contact-img{
+	display: table;
+	background-color: #fff;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.contact-member a{
+	padding: 8px;
+}
+
+/* =================================Contact Us Ends ========================================= */
+
+/*============================Footer Begins=====================*/
+#footer {
+    background-color: #2098f5;
+    padding: 20px 0;
+    overflow: hidden;
+}
+.copyright p {
+    color: #fff;
+    display: block;
+    padding-top: 25px;
+    font-size: 1.1em;
+}
+/*============================Footer Ends =====================*/
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:

@@ -173,28 +173,70 @@
 		</div>
 		<!--About Section Ends-->
 		
-		<div class="parallax" >
-		</div>
-		<div class="about content-div">
-			<div class="container padding-x">
+		<!--Parallax Begins-->
+		
+			<div class="parallax" ></div>
+		
+		<!--Parallax Ends-->
+		
+		<div class="contact-us content-div">
+			
+			<div class="container padding-2x">
 				
-					<!-- Row Begins -->
-					<div class="row text-center">
-						<h2 class="title margin-btm-x">About Us</h2>
+				<div class="row text-center padding-btm-2x">
+					<!--Contact Us Title-->
+					<h2 class="text-center title margin-btm-2x">Contact Us</h2>
 					
-						<div class="col-lg-5 col-md-12 col-sm-12 center">
-          				<img data-holder-rendered="true" src="images/logo.png" class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500">  
-			      	</div>
-			      					
-						<div id="aboutus" class="col-lg-6 col-md-12 col-sm-offset-1 col-sm-10 col-xs-12" style="">
-							<p>Elevate provides a platform for upcoming talented youth to come forward and display their caliber in the field of sports. Upcoming Elevate’16 is being held on a wider scale. It is not only hosting inter-collegiate basketball tournament but also a corporate level tournament, uplifting the level of Elevate.</p>						
-						</div>
-						
-
-					</div> 			
-					<!-- Row Ends -->
+					<p class="text-center title-tag padding-btm-x">For Inter-College & Inter-Collegiate</p>
+					<div class="col-md-3"></div>
+					<div class="col-md-3 col-sm-6">
+						<div class="contact-member">
+							<img class="contact-img img-responsive" src="images/user.png" alt="User"/>
+							<h2>Member 1,Head</h2>
+							<a href="#"><i class="fa fa-twitter fa-mbr fa-2x"></i></a>
+							<a href="#"><i class="fa fa-linkedin fa-mbr fa-2x"></i></a>
+							<a href="#"><i class="fa fa-dribbble fa-mbr fa-2x"></i></a>
+						</div>					
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<div class="contact-member">
+							<img class="contact-img img-responsive" src="images/user.png" alt="User"/>
+							<h2>Member 2,Head</h2>
+							<a href="#"><i class="fa fa-twitter fa-mbr fa-2x"></i></a>
+							<a href="#"><i class="fa fa-linkedin fa-mbr fa-2x"></i></a>
+							<a href="#"><i class="fa fa-dribbble fa-mbr fa-2x"></i></a>
+						</div>					
+					</div>
+					<div class="col-md-3"></div>
+				</div>
 			</div>
-		</div>		
+		
+		</div>	
+		<!-- Google Map Begins-->
+		<div class="content-div">
+			<div class="google-maps" >
+				<iframe width='100%' height="450" frameborder="0" style="border:0;pointer-events: none;" src="https://www.google.com/maps/embed/v1/place?q=Pune%20Institute%20of%20Computer%20Technology%2C%20Pune%2C%20Maharashtra%2C%20India&key=AIzaSyBRW26BO4JMCtsrUlZk8Z962cF7B1-O1pg"></iframe>  
+	  		</div>
+		</div>
+		
+		<!--Footer Begins-->
+		
+		<footer id="footer" class="content-div">
+			
+			<div class="conatiner">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="copyright">
+							<p class="text-center">Copyright &copy; 2017. All Rights Reserved Elevate</p>						
+						</div>					
+					</div>				
+				
+				</div>			
+			</div>		
+		
+		</footer>
+		<!--footer Ends-->
+						 
 	</section>
 		
 	
@@ -235,6 +277,35 @@
 	<!-- Nice Scroll JS -->
 	<script src="js/jquery.nicescroll.3.5.4.js"></script>	
 	
+   <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
 	<script src="js/style.js"></script>
+	
+	<script type="text/javascript">
+      var onMapMouseleaveHandler = function (event) {
+      var that = $(this);
+
+      that.on('click', onMapClickHandler);
+      that.off('mouseleave', onMapMouseleaveHandler);
+      that.find('iframe').css("pointer-events", "none");
+    }
+
+    var onMapClickHandler = function (event) {
+      var that = $(this);
+
+      // Disable the click handler until the user leaves the map area
+      that.off('click', onMapClickHandler);
+
+      // Enable scrolling zoom
+      that.find('iframe').css("pointer-events", "auto");
+
+      // Handle the mouse leave event
+      that.on('mouseleave', onMapMouseleaveHandler);
+    }
+
+    // Enable map zooming with mouse scroll when the user clicks the map
+    $('.google-maps').on('click', onMapClickHandler);
+    </script>
 </body>
 </html>

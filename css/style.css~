@@ -543,6 +543,57 @@ a:hover { text-decoration: underline; }
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
 }
 
+/* ==================================Parallax Begins======================================== */
+
+.parallax{
+	background-image: url(../images/quote.jpg);
+	margin-top: 100px;
+	width: 100%;	
+	height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* ==================================Parallax Ends========================================== */
+
+
+
+/* =================================Contact Us Begins ======================================= */
+
+.contact-member{
+		background-color: #fff;
+		border:1px solid #ddd;
+		border-radius: 5px;
+		padding: 20px 0;
+		margin: 10px 0;
+}
+
+.contact-member h2{
+    color: #585858;
+    font-family: latolight;
+    font-size: 1.2em;
+}
+
+.contact-img{
+	display: table;
+	background-color: #fff;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.contact-member a{
+	padding: 8px;
+}
+
+/* =================================Contact Us Ends ========================================= */
+
+
+
 /* ==========================================================================
    Print styles.
    Inlined to avoid the additional HTTP request:
@@ -602,8 +653,8 @@ a:hover { text-decoration: underline; }
     .text-justify { text-align: center }
     #aboutus{
 		border-left: none;
-		padding: 10px;
-		font-size: 1.2em;
+		padding : 25px;
+		font-size: 1.8em;
 		text-align:justify;
 	}
 }
@@ -619,7 +670,7 @@ a:hover { text-decoration: underline; }
     
     #aboutus{
 		border-left: none;
-		padding: 10px;
+		padding : 25px;
 		font-size: 1.2em;
 		text-align:justify;
 	}
@@ -653,8 +704,8 @@ a:hover { text-decoration: underline; }
 
     #aboutus{
 		border-left: none;
-		font-size: 1.2em;
-		padding: 10px;
+		font-size: 1.2em;	
+		padding : 25px;	
 		text-align:justify;
 	}
 	
@@ -681,7 +732,7 @@ a:hover { text-decoration: underline; }
     }
     #aboutus{
 		border-left: none;
-		padding: 10px;
+		padding : 25px;
 		font-size: 1.2em;
 		text-align:justify;
 	}
@@ -723,7 +774,7 @@ a:hover { text-decoration: underline; }
     
     #aboutus{
 		border-left: none;
-		padding: 10px;
+		padding: 25px;
 		font-size: 1.2em;
 		text-align:justify;
 	}
@@ -759,7 +810,7 @@ a:hover { text-decoration: underline; }
     
     #aboutus{
 		border-left: none;
-		padding: 10px;
+		padding: 25px;
 		font-size: 1.2em;
 		text-align:justify;
 	}
@@ -793,8 +844,8 @@ a:hover { text-decoration: underline; }
     
     #aboutus{
 		border-left: none;
-		font-size: 1.2em;
-		padding: 10px;
+		font-size: 1.8em;
+		padding: 25px;
 		text-align:justify;
 	}
 }
@@ -805,7 +856,7 @@ a:hover { text-decoration: underline; }
     #aboutus{
 		border-left: none;
 		padding: 25px;
-		font-size: 1.2em;
+		font-size: 1.8em;
 		text-align:justify;
 	}
 }
