@@ -138,7 +138,7 @@ p {
     padding: 0;
 }
 .title {
-    color: #2098f5;
+    color: #ff3e91;
     font-family: latobold;
     font-size: 2em;
     text-transform: uppercase;
@@ -260,7 +260,7 @@ p {
 }
 
 .text-logo{
-    color: #2098f5;
+    color: #ff3e91;
     font-family: BeonMedium;
     font-weight: bold;
     font-size: 3em;
@@ -274,7 +274,7 @@ p {
 	text-transform: uppercase;
 }
 
-.obak { color: #2098f5; }
+.obak { color: #ff3e91; }
 
 .intro-subtitle{
 	display: block;
@@ -355,8 +355,8 @@ a:hover { text-decoration: underline; }
 }
 .icon rect,
 .icon line {
-    stroke: #2098f5;
-    fill: #2098f5;
+    stroke: #ff3e91;
+    fill: #ff3e91;
     stroke-width: 2px;
 }
 .icon {
@@ -441,9 +441,9 @@ a:hover { text-decoration: underline; }
 .btn-notify-after:hover,
 .btn-notify-after:focus,
 .btn-notify-after:active {
-    background: #2098f5;
+    background: #ff3e91;
     color: #fff;
-    border-color: #2098f5;
+    border-color: #ff3e91;
 }
 
 /* ===============Trigger Ends===============*/
@@ -458,8 +458,8 @@ a:hover { text-decoration: underline; }
     position: absolute;
 }
 .fa-social {
-    background: #2098f5;
-    border: 0px solid #2098f5;
+    background: #ff3e91;
+    border: 0px solid #ff3e91;
     color: rgb(255, 255, 255);
     height: 42px;
     line-height: 45px;
@@ -467,7 +467,7 @@ a:hover { text-decoration: underline; }
     width: 42px;
 }
 .fa-social:hover {
-    color: #2098f5;
+    color: #ff3e91;
     background: #fff;
 }
 /*================Social Links================*/
@@ -594,7 +594,7 @@ a:hover { text-decoration: underline; }
 
 /*============================Footer Begins=====================*/
 #footer {
-    background-color: #2098f5;
+    background-color: #ff3e91;
     padding: 20px 0;
     overflow: hidden;
 }
