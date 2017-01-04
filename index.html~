@@ -177,7 +177,18 @@
 
 		<!--Parallax Begins-->
 
-			<div class="parallax" ></div>
+		<div class="img-gallery">
+			<div class="container padding-x" style="padding-left:57px;">
+				<ul class="row">
+					<li class="col-lg-4 col-md-4 col-sm-6 col-xs-6"><img src="images/elevate/openin.jpg" alt=""></li>
+					<li class="col-lg-4 col-md-4 col-sm-6 col-xs-6"><img src="images/elevate/view.jpg" alt=""></li>
+					<li class="col-lg-4 col-md-4 col-sm-6 col-xs-6"><img src="images/elevate/pic4.jpg" alt=""></li>
+					<li class="col-lg-4 col-md-4 col-sm-6 col-xs-6"><img src="images/elevate/pic3.jpg" alt=""></li>
+					<li class="col-lg-4 col-md-4 col-sm-6 col-xs-6"><img src="images/elevate/pic2.jpg" alt=""></li>
+					<li class="col-lg-4 col-md-4 col-sm-6 col-xs-6"><img src="images/elevate/pic1.jpg" alt=""></li>
+				</ul>
+			</div>
+		</div>
 
 		<!--Parallax Ends-->
 
