@@ -19,6 +19,8 @@
 	<link rel="stylesheet" href="css/normalize.css"/>
 
 	<link rel="stylesheet" href="css/style.css"/>
+	
+	<link rel="stylesheet" href="css/jquery.bsPhotoGallery.css"/>
 
 	<!--Linking required stylesheets Ends-->
 
@@ -157,8 +159,8 @@
 			<div class="container padding-x">
 
 					<!-- Row Begins -->
-					<div class="row text-center">
-						<h2 class="title margin-btm-x">About Us</h2>
+					<div class="row text-center padding-btm-2x">
+						<h2 class="title margin-btm-2x">About Us</h2>
 
 						<div class="col-lg-5 col-md-12 col-sm-12 center">
           				<img data-holder-rendered="true" src="images/logo.png" class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="500x500">
@@ -175,24 +177,33 @@
 		</div>
 		<!--About Section Ends-->
 
-		<!--Parallax Begins-->
+		<!--Gallery Begins-->
 
-		<div class="img-gallery">
-			<div class="container padding-x" style="padding-left:70px;">
-				<ul class="row">
-					<li class="col-lg-4 col-md-4 col-sm-6 col-xs-6"><img src="images/elevate/openin.jpg" alt=""></li>
-					<li class="col-lg-4 col-md-4 col-sm-6 col-xs-6"><img src="images/elevate/view.jpg" alt=""></li>
-					<li class="col-lg-4 col-md-4 col-sm-6 col-xs-6"><img src="images/elevate/pic4.jpg" alt=""></li>
-					<li class="col-lg-4 col-md-4 col-sm-6 col-xs-6"><img src="images/elevate/pic3.jpg" alt=""></li>
-					<li class="col-lg-4 col-md-4 col-sm-6 col-xs-6"><img src="images/elevate/pic2.jpg" alt=""></li>
-					<li class="col-lg-4 col-md-4 col-sm-6 col-xs-6"><img src="images/elevate/pic1.jpg" alt=""></li>
-				</ul>
+		<div class="img-gallery content-div">
+		
+			<div class="container padding-x">
+
+				<div class="row text-center padding-btm-2x">
+					
+					<h2 class="title text-center margin-btm-2x">Gallery</h2>
+					
+					<div class="col-lg-12 col-md-12 col-sm12 col-xs-12">
+						<ul class="first row">
+							<li class="col-lg-4 col-md-4 col-sm-6 col-xs-6"><img class="img-responsive" src="images/elevate/openin.jpg" alt=""></li>
+							<li class="col-lg-4 col-md-4 col-sm-6 col-xs-6"><img class="img-responsive" src="images/elevate/view.jpg" alt=""></li>
+							<li class="col-lg-4 col-md-4 col-sm-6 col-xs-6"><img class="img-responsive" src="images/elevate/pic4.jpg" alt=""></li>					
+							<li class="col-lg-4 col-md-4 col-sm-6 col-xs-6"><img class="img-responsive" src="images/elevate/pic3.jpg" alt=""></li>
+							<li class="col-lg-4 col-md-4 col-sm-6 col-xs-6"><img class="img-responsive" src="images/elevate/pic2.jpg" alt=""></li>
+							<li class="col-lg-4 col-md-4 col-sm-6 col-xs-6"><img class="img-responsive" src="images/elevate/pic1.jpg" alt=""></li>
+						</ul>
+					</div>
+				</div>			
 			</div>
 		</div>
 
-		<!--Parallax Ends-->
+		<!--Gallery Ends-->
 
-		<div class="contact-us content-div" style="bac">
+		<div class="contact-us content-div">
 
 			<div class="container padding-2x">
 
@@ -303,10 +314,6 @@
 
 
 
-
-
-
-
 	<!-- Scripts linking begins-->
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -332,6 +339,8 @@
 
    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+	<script src="js/jquery.bsPhotoGallery.js"></script>
 
 	<script src="js/style.js"></script>
 
@@ -363,6 +372,12 @@
     <!--Clock Javascript-->
 
     <script type="text/javascript">
+		$(document).ready(function(){
+  			$('ul.first').bsPhotoGallery({
+    			"classes" : "col-lg-4 col-md-4 col-sm-6 col-xs-6 col-xxs-12",
+    			"hasModal" : true
+  			});
+		});
 
     	function clock() {
 

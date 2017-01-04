@@ -692,6 +692,10 @@ a:hover { text-decoration: underline; }
 
 @media only screen and (max-width: 480px) { 
     /* body{background:#69C238} */
+    .img-gallery{
+		padding-left:10px;
+		padding-right:50px;    
+    }
     .intro { position: absolute }
     .logo { margin: -55px 0 25px }
     .text-logo {
@@ -742,6 +746,11 @@ a:hover { text-decoration: underline; }
 	
 }
 @media only screen and (max-width: 320px) { 
+    .img-gallery{
+		padding-left:10px;
+		padding-right:50px;    
+    }
+    
     .intro { position: absolute }
     .text-logo {
         font-size: 3em;
@@ -811,6 +820,12 @@ a:hover { text-decoration: underline; }
 	}
 }}
 @media only screen and (min-width: 481px) and (max-width: 568px) { 
+
+    .img-gallery{
+		padding-left:10px;
+		padding-right:50px;    
+    }
+    
     .intro { position: absolute }
     .intro-content { padding: 2% }
     .logo { margin: -45px 0 25px;}
