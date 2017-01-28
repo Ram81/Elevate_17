@@ -112,9 +112,9 @@
 		<div class="container-bottom-content">
 			<!-- ==== Social Links ==== -->
 			<div class="social">
-				<a href="https://www.facebook.com"><i class="fa fa-facebook fa-2x fa-social"></i></a>
-				<a href="https://www.twitter.com"><i class="fa fa-twitter fa-2x fa-social"></i></a>
-				<a href="https://www.instagram.com"><i class="fa fa-instagram fa-2x fa-social"></i></a>
+				<a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook fa-2x fa-social"></i></a>
+				<a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter fa-2x fa-social"></i></a>
+				<a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram fa-2x fa-social"></i></a>
 			</div> <!-- /End Social Links -->
 
 			<!-- ==== Notify Section ==== -->
@@ -217,8 +217,8 @@
 						<div class="contact-member">
 							<img class="contact-img img-responsive" src="images/user.jpeg" alt="User"/>
 							<h2><p>Arundhati Palsule ,8830045469</p></h2>
-							<a href="https://www.facebook.com/arundhati.palsule"><i class="fa fa-facebook fa-mbr fa-2x"></i></a>
-							<a href="https://www.instagram.com/lustreless_pixiedust"><i class="fa fa-instagram fa-mbr fa-2x"></i></a>
+							<a href="https://www.facebook.com/arundhati.palsule/" target="_blank"><i class="fa fa-facebook fa-mbr fa-2x"></i></a>
+							<a href="https://www.instagram.com/lustreless_pixiedust/" target="_blank"><i class="fa fa-instagram fa-mbr fa-2x"></i></a>
 							<a href="#"><i class="fa fa-dribbble fa-mbr fa-2x"></i></a>
 						</div>					
 					</div>
@@ -226,8 +226,8 @@
 						<div class="contact-member">
 							<img class="contact-img img-responsive" src="images/user.jpeg" alt="User"/>
 							<h2><p>Shubham Panpalia ,7385000352</p></h2>
-							<a href="https://www.facebook.com/shubham.panpalia"><i class="fa fa-facebook fa-mbr fa-2x"></i></a>
-							<a href="https://www.instagram.com/bhayanak_aatmaa2994/"><i class="fa fa-instagram fa-mbr fa-2x"></i></a>
+							<a href="https://www.facebook.com/shubham.panpalia/" target="_blank"><i class="fa fa-facebook fa-mbr fa-2x"></i></a>
+							<a href="https://www.instagram.com/bhayanak_aatmaa2994/" target="_blank"><i class="fa fa-instagram fa-mbr fa-2x"></i></a>
 							<a href="#"><i class="fa fa-dribbble fa-mbr fa-2x"></i></a>
 						</div>
 					</div>
@@ -236,8 +236,8 @@
 						<div class="contact-member">
 							<img class="contact-img img-responsive" src="images/user.jpeg" alt="User"/>
 							<h2><p>    Mansi Bapat , 8007980381</p></h2>
-							<a href="https://www.facebook.com/mansi.bapat.35"><i class="fa fa-facebook fa-mbr fa-2x"></i></a>
-							<a href="https://www.instagram.com/mansibapat/"><i class="fa fa-instagram fa-mbr fa-2x"></i></a>
+							<a href="https://www.facebook.com/mansi.bapat.35/" target="_blank"><i class="fa fa-facebook fa-mbr fa-2x"></i></a>
+							<a href="https://www.instagram.com/mansibapat/" target="_blank"><i class="fa fa-instagram fa-mbr fa-2x"></i></a>
 							<a href="#"><i class="fa fa-dribbble fa-mbr fa-2x"></i></a>
 						</div>
 					</div>					
@@ -251,8 +251,8 @@
 						<div class="contact-member">
 							<img class="contact-img img-responsive" src="images/user.jpeg" alt="User"/>
 							<h2><p>Mandar Kandge, 9970340403</p></h2>
-							<a href="https://m.facebook.com/Mandar.Kandge"><i class="fa fa-facebook fa-mbr fa-2x"></i></a>
-							<a href="https://www.instagram.com/mandar6896"><i class="fa fa-instagram fa-mbr fa-2x"></i></a>
+							<a href="https://www.facebook.com/Mandar.Kandge" target="_blank"><i class="fa fa-facebook fa-mbr fa-2x"></i></a>
+							<a href="https://www.instagram.com/mandar6896/" target="_blank"><i class="fa fa-instagram fa-mbr fa-2x"></i></a>
 							<a href="#"><i class="fa fa-dribbble fa-mbr fa-2x"></i></a>
 						</div>
 					</div>
@@ -260,8 +260,8 @@
 						<div class="contact-member">
 							<img class="contact-img img-responsive" src="images/user.jpeg" alt="User"/>
 							<h2><p>Rushi Karwankar , 9823666485</p></h2>
-							<a href="https://www.facebook.com/abhirushi.karwankar"><i class="fa fa-facebook fa-mbr fa-2x"></i></a>
-							<a href="https://www.instagram.com/rushikarwankar/"><i class="fa fa-instagram fa-mbr fa-2x"></i></a>
+							<a href="https://www.facebook.com/abhirushi.karwankar" target="_blank"><i class="fa fa-facebook fa-mbr fa-2x"></i></a>
+							<a href="https://www.instagram.com/rushikarwankar/" target="_blank"><i class="fa fa-instagram fa-mbr fa-2x"></i></a>
 							<a href="#"><i class="fa fa-dribbble fa-mbr fa-2x"></i></a>
 						</div>
 					</div>
@@ -316,8 +316,8 @@
 
 
 	<!-- Scripts linking begins-->
-
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 	<!-- Modernizer -->
 	<script src="js/modernizr.custom.js"></script>
@@ -337,9 +337,6 @@
 	<script src="js/gmaps.js"></script>
 	<!-- Nice Scroll JS -->
 	<script src="js/jquery.nicescroll.3.5.4.js"></script>
-
-   <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-   <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
 
 	<script src="js/jquery.bsPhotoGallery.js"></script>
 
