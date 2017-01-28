@@ -79,7 +79,7 @@
 					<h2 class="text-logo">Elevate 2017</h2>
 				</div><!-- /End logo -->
 				<!-- ==== Main Heading ==== -->
-				<h1 class="intro-title">Coming Soon<span class="obak">!</span></h1>
+				<h4 class="intro-title">11<sup>th</sup> - 19<sup>th</sup> <span class="obak">February</span></h4>
 
 				<!-- Spin Clock -->
 				<i class="fa fa-clock-o fa-spin fa-4x fa-clock-spin"></i>
@@ -114,7 +114,7 @@
 			<div class="social">
 				<a href="https://www.facebook.com"><i class="fa fa-facebook fa-2x fa-social"></i></a>
 				<a href="https://www.twitter.com"><i class="fa fa-twitter fa-2x fa-social"></i></a>
-				<a href="https://www.linkedin.com"><i class="fa fa-linkedin fa-2x fa-social"></i></a>
+				<a href="https://www.instagram.com"><i class="fa fa-instagram fa-2x fa-social"></i></a>
 			</div> <!-- /End Social Links -->
 
 			<!-- ==== Notify Section ==== -->
@@ -187,7 +187,7 @@
 					
 					<h2 class="title margin-btm-2x">Gallery</h2>
 					
-					<div class="col-lg-12 col-md-12 col-sm12 col-xs-12">
+					<div class="img-gallery col-lg-12 col-md-12 col-sm12 col-xs-12">
 						<ul class="first row">
 							<li class="col-lg-4 col-md-4 col-sm-6 col-xs-6"><img class="img-responsive" src="images/elevate/openin.jpg" alt=""></li>
 							<li class="col-lg-4 col-md-4 col-sm-6 col-xs-6"><img class="img-responsive" src="images/elevate/view.jpg" alt=""></li>
@@ -216,18 +216,18 @@
 					<div class="col-md-3 col-sm-6">
 						<div class="contact-member">
 							<img class="contact-img img-responsive" src="images/user.jpeg" alt="User"/>
-							<h2><p>Mandar Kandge ,9970340403</p></h2>
-							<a href="#"><i class="fa fa-twitter fa-mbr fa-2x"></i></a>
-							<a href="#"><i class="fa fa-linkedin fa-mbr fa-2x"></i></a>
+							<h2><p>Arundhati Palsule ,8830045469</p></h2>
+							<a href="https://www.facebook.com/arundhati.palsule"><i class="fa fa-facebook fa-mbr fa-2x"></i></a>
+							<a href="https://www.instagram.com/lustreless_pixiedust"><i class="fa fa-instagram fa-mbr fa-2x"></i></a>
 							<a href="#"><i class="fa fa-dribbble fa-mbr fa-2x"></i></a>
-						</div>
+						</div>					
 					</div>
 					<div class="col-md-3 col-sm-6">
 						<div class="contact-member">
 							<img class="contact-img img-responsive" src="images/user.jpeg" alt="User"/>
 							<h2><p>Shubham Panpalia ,7385000352</p></h2>
-							<a href="#"><i class="fa fa-twitter fa-mbr fa-2x"></i></a>
-							<a href="#"><i class="fa fa-linkedin fa-mbr fa-2x"></i></a>
+							<a href="https://www.facebook.com/shubham.panpalia"><i class="fa fa-facebook fa-mbr fa-2x"></i></a>
+							<a href="https://www.instagram.com/bhayanak_aatmaa2994/"><i class="fa fa-instagram fa-mbr fa-2x"></i></a>
 							<a href="#"><i class="fa fa-dribbble fa-mbr fa-2x"></i></a>
 						</div>
 					</div>
@@ -235,33 +235,33 @@
 					<div class="col-md-3 col-sm-6">
 						<div class="contact-member">
 							<img class="contact-img img-responsive" src="images/user.jpeg" alt="User"/>
-							<h2><p>Arundhati Palsule ,8830045469</p></h2>
-							<a href="#"><i class="fa fa-twitter fa-mbr fa-2x"></i></a>
-							<a href="#"><i class="fa fa-linkedin fa-mbr fa-2x"></i></a>
+							<h2><p>    Mansi Bapat , 8007980381</p></h2>
+							<a href="https://www.facebook.com/mansi.bapat.35"><i class="fa fa-facebook fa-mbr fa-2x"></i></a>
+							<a href="https://www.instagram.com/mansibapat/"><i class="fa fa-instagram fa-mbr fa-2x"></i></a>
 							<a href="#"><i class="fa fa-dribbble fa-mbr fa-2x"></i></a>
-						</div>					
-					</div>
+						</div>
+					</div>					
 				</div>
 				
 				<div class="row text-center padding-btm-2x">
-					<h4><p class="text-center title-tag padding-btm-x">For Inter-College</p></h4>
+					<h4><p class="text-center title-tag padding-btm-x">For Inter-Collegiate</p></h4>
 					
 					<div class="col-md-3"></div>
 					<div class="col-md-3 col-sm-6">
 						<div class="contact-member">
 							<img class="contact-img img-responsive" src="images/user.jpeg" alt="User"/>
-							<h2><p>Rushi Karwankar , 9823666485</p></h2>
-							<a href="#"><i class="fa fa-twitter fa-mbr fa-2x"></i></a>
-							<a href="#"><i class="fa fa-linkedin fa-mbr fa-2x"></i></a>
+							<h2><p>Mandar Kandge, 9970340403</p></h2>
+							<a href="https://m.facebook.com/Mandar.Kandge"><i class="fa fa-facebook fa-mbr fa-2x"></i></a>
+							<a href="https://www.instagram.com/mandar6896"><i class="fa fa-instagram fa-mbr fa-2x"></i></a>
 							<a href="#"><i class="fa fa-dribbble fa-mbr fa-2x"></i></a>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6">
 						<div class="contact-member">
 							<img class="contact-img img-responsive" src="images/user.jpeg" alt="User"/>
-							<h2><p>     Mansi Bapat , 8007980381</p></h2>
-							<a href="#"><i class="fa fa-twitter fa-mbr fa-2x"></i></a>
-							<a href="#"><i class="fa fa-linkedin fa-mbr fa-2x"></i></a>
+							<h2><p>Rushi Karwankar , 9823666485</p></h2>
+							<a href="https://www.facebook.com/abhirushi.karwankar"><i class="fa fa-facebook fa-mbr fa-2x"></i></a>
+							<a href="https://www.instagram.com/rushikarwankar/"><i class="fa fa-instagram fa-mbr fa-2x"></i></a>
 							<a href="#"><i class="fa fa-dribbble fa-mbr fa-2x"></i></a>
 						</div>
 					</div>
@@ -292,6 +292,7 @@
 					<div class="col-sm-12">
 						<div class="copyright">
 							<p class="text-center">Copyright &copy; 2017 Elevate. All Rights Reserved.</p>
+							<p class="text-center"> Developed by Ram Ramrakhya</p>
 						</div>
 					</div>
 
