@@ -120,17 +120,7 @@
 			<!-- ==== Notify Section ==== -->
 			<div class="notify-after text-center" >
 				<h2>Elevate'17 <span style="color: #3d3d38;">Rise Above All</span></h2>
-				<div style="visibility:hidden;">
-				<form id="mc-form" class="form-inline" role="form">
-					<div class="form-group subscribe-form">
-						<input id="mc-email" type="email" placeholder="Your email" class="form-control input-label input-notify-after">
-						<button type="submit" class="btn btn-default btn-notify-after"><i class="fa fa-send-o"></i></button>
-					</div><!-- End email input -->
-					<div class="subscribe_lebel" >
-						<label for="mc-email"></label>
-					</div>
-				</form>
-				</div>
+				
 			</div> <!-- /End Notify Section -->
 
 			<!-- ==== Trigger Button ==== -->
@@ -245,8 +235,8 @@
 					<div class="col-md-1" style="margin-left:45px;"></div>
 					<div class="col-md-3 col-sm-6">
 						<div class="contact-member">
-							<img class="contact-img img-responsive" src="images/user.jpeg" alt="User"/>
-							<h2><p>Arundhati Palsule ,8830045469</p></h2>
+							<img class="contact-img img-responsive" src="images/Team/member1.jpeg" alt="User"/>
+							<h2 class="text-center"><p>Arundhati Palsule ,8830045469</p></h2>
 							<a href="https://www.facebook.com/arundhati.palsule/" target="_blank"><i class="fa fa-facebook fa-mbr fa-2x"></i></a>
 							<a href="https://www.instagram.com/lustreless_pixiedust/" target="_blank"><i class="fa fa-instagram fa-mbr fa-2x"></i></a>
 							<a href="#"><i class="fa fa-dribbble fa-mbr fa-2x"></i></a>
@@ -255,7 +245,7 @@
 					<div class="col-md-3 col-sm-6">
 						<div class="contact-member">
 							<img class="contact-img img-responsive" src="images/Team/member2.jpeg" alt="User"/>
-							<h2><p>Shubham Panpalia ,7385000352</p></h2>
+							<h2 class="text-center"><p>Shubham Panpalia ,7385000352</p></h2>
 							<a href="https://www.facebook.com/shubham.panpalia/" target="_blank"><i class="fa fa-facebook fa-mbr fa-2x"></i></a>
 							<a href="https://www.instagram.com/bhayanak_aatmaa2994/" target="_blank"><i class="fa fa-instagram fa-mbr fa-2x"></i></a>
 							<a href="#"><i class="fa fa-dribbble fa-mbr fa-2x"></i></a>
@@ -265,7 +255,7 @@
 					<div class="col-md-3 col-sm-6">
 						<div class="contact-member">
 							<img class="contact-img img-responsive" src="images/Team/member3.jpeg" alt="User"/>
-							<h2><p>    Mansi Bapat , 8007980381</p></h2>
+							<h2 class="text-center"><p>Mansi Bapat , 8007980381</p></h2>
 							<a href="https://www.facebook.com/mansi.bapat.35/" target="_blank"><i class="fa fa-facebook fa-mbr fa-2x"></i></a>
 							<a href="https://www.instagram.com/mansibapat/" target="_blank"><i class="fa fa-instagram fa-mbr fa-2x"></i></a>
 							<a href="#"><i class="fa fa-dribbble fa-mbr fa-2x"></i></a>
@@ -280,7 +270,7 @@
 					<div class="col-md-3 col-sm-6">
 						<div class="contact-member">
 							<img class="contact-img img-responsive" src="images/Team/member4.jpeg" alt="User"/>
-							<h2><p>Mandar Kandge, 9970340403</p></h2>
+							<h2 class="text-center"><p>Mandar Kandge, 9970340403</p></h2>
 							<a href="https://www.facebook.com/Mandar.Kandge" target="_blank"><i class="fa fa-facebook fa-mbr fa-2x"></i></a>
 							<a href="https://www.instagram.com/mandar6896/" target="_blank"><i class="fa fa-instagram fa-mbr fa-2x"></i></a>
 							<a href="#"><i class="fa fa-dribbble fa-mbr fa-2x"></i></a>
@@ -289,7 +279,7 @@
 					<div class="col-md-3 col-sm-6">
 						<div class="contact-member">
 							<img class="contact-img img-responsive" src="images/Team/member5.jpeg" alt="User"/>
-							<h2><p>Rushi Karwankar , 9823666485</p></h2>
+							<h2 class="text-center"><p>Rushi Karwankar , 9823666485</p></h2>
 							<a href="https://www.facebook.com/abhirushi.karwankar" target="_blank"><i class="fa fa-facebook fa-mbr fa-2x"></i></a>
 							<a href="https://www.instagram.com/rushikarwankar/" target="_blank"><i class="fa fa-instagram fa-mbr fa-2x"></i></a>
 							<a href="#"><i class="fa fa-dribbble fa-mbr fa-2x"></i></a>
